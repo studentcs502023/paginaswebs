@@ -1,4 +1,4 @@
-@media (min-width: 300px) and (max-width:750px) {
+@media (min-width: 300px) and (max-width:1350px) {
 
 #back{
   display: flex;
@@ -453,5 +453,6 @@ align-items: center;
 }
 
 }
+
 
 
