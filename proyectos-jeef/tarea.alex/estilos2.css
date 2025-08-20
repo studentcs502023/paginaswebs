@@ -204,7 +204,7 @@ align-items: center;
 }
 
 
-@media (min-width: 750px) and (max-width: 1300px) {
+@media (min-width: 750px) and (max-width: 1350px) {
 #descripcion {
 display: flex;
 flex-direction: column;
@@ -393,3 +393,4 @@ align-items: center;
 
 }
 }
+
