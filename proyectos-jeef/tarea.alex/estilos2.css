@@ -157,8 +157,8 @@ line-height: 0px;
 }
     iframe {
 border-color: solid 5px double black;
-      width: 120%;
-      height: 300px;
+      width: 50%;
+      height: 150px;
       border-radius: 8px;
 justify-content: center;
 align-items: center;
@@ -396,6 +396,7 @@ align-items: center;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
 }
+
 
 
 
