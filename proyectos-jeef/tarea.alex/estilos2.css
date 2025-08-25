@@ -299,6 +299,44 @@ height: 4vh;
   font-size: 16px; 
 }
 
+#datos {
+  background-color: #eef6ff;  
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 85%;
+  margin: 18px auto;
+  font-family: Arial, sans-serif;
+  list-style: none;
+}
+
+#datos > li {
+  margin-bottom: 12px;
+  padding: 10px 14px;
+  background: #fff;
+  border-radius: 6px;
+  border-left: 4px solid #0077b6; 
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#datos > li strong {
+  color: #0077b6;
+  font-size: 16px;
+}
+
+#datos .sub-lista {
+  margin-top: 6px;
+  margin-left: 18px;
+  padding-left: 12px;
+  list-style-type: disc;   
+  color: #444;
+  font-size: 14px;
+}
+
+.item{
+display: flex;
+gap: 30px;
+
+}
 
 
 .coordenas{
@@ -355,6 +393,7 @@ align-items: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 }
+
 
 
 
