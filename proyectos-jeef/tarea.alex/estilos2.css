@@ -292,38 +292,8 @@ body {
 }
 
 /* 🔹 Estilos para móviles (hasta 750px) */
-@media (max-width: 750px) {
-  .info2 {
-    padding: 10px;
-  }
-
-  #imagen {
-    width: 100%;   /* 👈 Ocupa todo el ancho */
-    max-width: 280px;
-    height: auto;
-    margin: 10px 0;
-  }
-
-  .botones {
-    width: 100%;
-    align-items: flex-start;
-  }
-
-  .botones button {
-    width: 100%;       /* Ocupan todo el ancho en móviles */
-    text-align: left;
-    justify-content: flex-start;
-  }
-
-
-  #descripcion {
-    font-size: 14px;
-    line-height: 1.4;
-  }
-}
-
-
 
 }
+
 
 
