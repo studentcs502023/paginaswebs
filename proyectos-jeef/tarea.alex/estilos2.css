@@ -177,6 +177,8 @@ align-items: center;
   text-align: center;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
   margin-top: 15px;
+   width: 30vw;
+      height: 300px;
 }
 #act {
   background-color: #d9f1ff;    
@@ -396,6 +398,7 @@ align-items: center;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
 }
+
 
 
 
