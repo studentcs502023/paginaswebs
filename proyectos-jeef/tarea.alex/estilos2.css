@@ -203,96 +203,92 @@ align-items: center;
 
 }
 
-
 @media (min-width: 750px) and (max-width: 1400px) {
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center; /* 👈 Centra todo el texto */
+  }
 
-#back {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 60px;
-  height: 40px;
-  border-radius: 6px;
-  background-color: #0077b6;
-  color: white;
-  font-size: 18px;
-  cursor: pointer;
-  box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  margin: 10px;
-}
+  #back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #0077b6;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px;
+  }
 
-.info2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;   /* 👈 Pegado a la izquierda */
-  padding: 20px;
-}
+  .info2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 👈 centrado */
+    padding: 20px;
+  }
 
-.card2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;  /* 👈 Todo alineado a la izquierda */
-  line-height: 1.2;
-}
+  .card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 👈 texto centrado */
+    line-height: 1.5;
+  }
 
-#imagen {
-  width: 450px;   /* Más grande en pantallas grandes */
-  height: auto;
-  border-radius: 12px;
-  margin: 10px 0;
-  box-shadow: 3px 6px 12px rgba(0,0,0,0.25); /* 👀 Efecto vistoso */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+  #imagen {
+    width: 450px;
+    height: auto;
+    border-radius: 12px;
+    margin: 10px 0;
+    box-shadow: 3px 6px 12px rgba(0,0,0,0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
 
-#imagen:hover {
-  transform: scale(1.05);
-  box-shadow: 6px 10px 20px rgba(0,0,0,0.35);
-}
+  #imagen:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 10px 20px rgba(0,0,0,0.35);
+  }
 
-#descripcion {
-  text-align: left;
-  max-width: 600px;
-}
+  #descripcion {
+    text-align: center; /* 👈 texto centrado */
+    font-size: 18px;    /* 👈 letras más grandes */
+    max-width: 600px;
+  }
 
-/* Botones alineados a la izquierda */
-.botones {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: flex-start;  /* 👈 Pegados a la izquierda */
-  margin-top: 20px;
-}
+  /* Botones alineados a la izquierda pero con letras más grandes */
+  .botones {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start; /* 👈 pegados a la izquierda */
+    margin-top: 20px;
+  }
 
-/* 🔹 Estilo de los botones (conservado del original) */
-.botones button {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: 1px solid #000;  /* 👈 Borde negro */
-  background-color: #fff;  /* 👈 Fondo blanco */
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 500;
-  color: #000;             /* 👈 Texto negro */
-  box-shadow: 2px 4px 8px rgba(0,0,0,0.15);
-  transition: background 0.3s ease, transform 0.2s ease;
-}
+  .botones button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 18px; /* 👈 más grandes en escritorio */
+    font-weight: 500;
+    color: #000;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.15);
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
 
-/* 🔹 Hover conservando estilo elegante */
-.botones button:hover {
-  background-color: #f1f1f1;
-  transform: scale(1.02);
-}
-
-/* 🔹 Estilos para móviles (hasta 750px) */
-
+  .botones button:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.02);
+  }
 }
 
 
