@@ -33,7 +33,9 @@ line-height: 0px;
 height: 300px;
 width: 250px;
 margin: 0;
-
+ filter: blur(0);
+  filter: contrast(120%) brightness(110%);
+  object-fit: cover;
 }
 
 
@@ -396,3 +398,4 @@ align-items: center;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
 }
+
